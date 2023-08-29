@@ -4,5 +4,5 @@ Examples easy to run and understand
 # Topics
 add more here
 
-# Open to contrutions
+# Open to contributions
 Use same structure, welcome to add more examples
