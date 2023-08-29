@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapComponent } from './operators/transformation/map/map.component';
 import { ForkJoinComponent } from './operators/cobination/fork-join/fork-join.component';
+import { TakeComponent } from './operators/filtering/take/take.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
-    ForkJoinComponent
+    ForkJoinComponent,
+    TakeComponent
   ],
   imports: [
     BrowserModule,
