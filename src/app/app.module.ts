@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapComponent } from './operators/transformation/map/map.component';
+import { ForkJoinComponent } from './operators/cobination/fork-join/fork-join.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    ForkJoinComponent
   ],
   imports: [
     BrowserModule,
