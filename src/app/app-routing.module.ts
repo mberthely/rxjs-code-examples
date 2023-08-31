@@ -5,6 +5,7 @@ import { ForkJoinComponent } from './operators/cobination/fork-join/fork-join.co
 import { TakeComponent } from './operators/filtering/take/take.component';
 import { CatchComponent } from './operators/error-handling/catch/catch.component';
 import { FilterComponent } from './operators/filtering/filter/filter.component';
+import { FindComponent } from './operators/filtering/find/find.component';
 
 const routes: Routes = [
   // Operators Transformation 
@@ -16,6 +17,7 @@ const routes: Routes = [
   // Operators Filtering
   { path: 'take', component: TakeComponent },
   { path: 'filter', component: FilterComponent },
+  { path: 'find', component: FindComponent },
 
   // Error handling
   { path: 'catch', component: CatchComponent },
