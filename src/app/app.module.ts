@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './operators/transformation/map/map.component';
 import { ForkJoinComponent } from './operators/cobination/fork-join/fork-join.component';
 import { TakeComponent } from './operators/filtering/take/take.component';
+import { CatchComponent } from './error-handling/catch/catch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
     ForkJoinComponent,
-    TakeComponent
+    TakeComponent,
+    CatchComponent
   ],
   imports: [
     BrowserModule,

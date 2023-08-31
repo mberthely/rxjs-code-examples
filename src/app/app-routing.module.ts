@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MapComponent } from './operators/transformation/map/map.component';
 import { ForkJoinComponent } from './operators/cobination/fork-join/fork-join.component';
 import { TakeComponent } from './operators/filtering/take/take.component';
+import { CatchComponent } from './error-handling/catch/catch.component';
 
 const routes: Routes = [
   // Operators Transformation 
@@ -13,6 +14,10 @@ const routes: Routes = [
 
   // Operators Filtering
   { path: 'take', component: TakeComponent },
+
+  // Error handling
+  { path: 'catch', component: CatchComponent },
+
 ];
 
 @NgModule({
