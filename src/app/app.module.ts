@@ -8,6 +8,7 @@ import { TakeComponent } from './operators/filtering/take/take.component';
 import { CatchComponent } from './operators/error-handling/catch/catch.component';
 import { FilterComponent } from './operators/filtering/filter/filter.component';
 import { FindComponent } from './operators/filtering/find/find.component';
+import { SwitchMapComponent } from './operators/transformation/switch-map/switch-map.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FindComponent } from './operators/filtering/find/find.component';
     TakeComponent,
     CatchComponent,
     FilterComponent,
-    FindComponent
+    FindComponent,
+    SwitchMapComponent
   ],
   imports: [
     BrowserModule,
