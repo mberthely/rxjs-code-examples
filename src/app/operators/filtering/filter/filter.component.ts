@@ -18,7 +18,7 @@ export class FilterComponent implements OnInit {
       filter(result => result > 2)
     ).subscribe(result => {
       console.log(result);
-    })
+    });
   }
 
 }

@@ -18,7 +18,7 @@ export class SwitchMapComponent implements OnInit {
     fromEvent(document, 'click')
       .pipe(
         switchMap((event) => {
-          return ajax.getJSON(API_URL)
+          return ajax.getJSON(API_URL);
         })
       )
       .subscribe(data => console.log(data));

@@ -20,7 +20,7 @@ export class ForkJoinComponent implements OnInit {
       sourceFour: interval(1000).pipe(take(2)),
     }).subscribe(result => {
       console.log(result);
-    })
+    });
   }
 
 }

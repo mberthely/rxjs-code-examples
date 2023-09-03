@@ -18,7 +18,7 @@ export class TakeComponent implements OnInit {
       take(1)
     ).subscribe(val => console.log(val));
 
-    this.source.subscribe(val => console.log('Direct subscribe: ' + val))
+    this.source.subscribe(val => console.log('Direct subscribe: ' + val));
   }
 
 }

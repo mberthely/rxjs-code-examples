@@ -15,11 +15,11 @@ const routes: Routes = [
   // Topic scanarios
   { path: 'subject-vs-observable', component: SubjectVsObservableComponent },
 
-  // Operators Transformation 
+  // Operators Transformation
   { path: 'map', component: MapComponent },
   { path: 'switch-map', component: SwitchMapComponent },
 
-  // Operators Combination 
+  // Operators Combination
   { path: 'forkJoin', component: ForkJoinComponent },
   { path: 'combine-all', component: CombineAllComponent },
 

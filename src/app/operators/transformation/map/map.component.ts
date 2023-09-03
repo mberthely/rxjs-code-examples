@@ -18,7 +18,7 @@ export class MapComponent implements OnInit {
       map((val: number) => val + 1),
       map((val: number) => val + 1),
     ).subscribe(val => {
-      console.log(val)
+      console.log(val);
     });
 
   }

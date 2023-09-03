@@ -13,7 +13,7 @@ export class FindComponent implements OnInit {
   ngOnInit(): void {
 
 
-    const data = from([1, 2, 3, 4, 4, 4, 5])
+    const data = from([1, 2, 3, 4, 4, 4, 5]);
     data
       .pipe(
         find((value: any) => {
@@ -21,7 +21,7 @@ export class FindComponent implements OnInit {
         }),
       )
       .subscribe(obj => {
-        console.log(obj)
+        console.log(obj);
       });
   }
 
