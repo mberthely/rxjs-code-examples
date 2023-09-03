@@ -9,6 +9,8 @@ import { CatchComponent } from './operators/error-handling/catch/catch.component
 import { FilterComponent } from './operators/filtering/filter/filter.component';
 import { FindComponent } from './operators/filtering/find/find.component';
 import { SwitchMapComponent } from './operators/transformation/switch-map/switch-map.component';
+import { SubjectVsObservableComponent } from './topic-scenarios/subject-vs-observable/subject-vs-observable.component';
+import { CombineAllComponent } from './operators/cobination/combine-all/combine-all.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { SwitchMapComponent } from './operators/transformation/switch-map/switch
     CatchComponent,
     FilterComponent,
     FindComponent,
-    SwitchMapComponent
+    SwitchMapComponent,
+    SubjectVsObservableComponent,
+    CombineAllComponent
   ],
   imports: [
     BrowserModule,
