@@ -11,6 +11,7 @@ import { FindComponent } from './operators/filtering/find/find.component';
 import { SwitchMapComponent } from './operators/transformation/switch-map/switch-map.component';
 import { SubjectVsObservableComponent } from './topic-scenarios/subject-vs-observable/subject-vs-observable.component';
 import { CombineAllComponent } from './operators/cobination/combine-all/combine-all.component';
+import { OfComponent } from './operators/creation/of/of.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CombineAllComponent } from './operators/cobination/combine-all/combine-
     FindComponent,
     SwitchMapComponent,
     SubjectVsObservableComponent,
-    CombineAllComponent
+    CombineAllComponent,
+    OfComponent
   ],
   imports: [
     BrowserModule,
