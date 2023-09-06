@@ -15,9 +15,7 @@ export class ForkJoinComponent implements OnInit {
 
     forkJoin({
       sourceOne: of('Hello'),
-      sourceTwo: of('World').pipe(delay(1000)),
-      sourceThree: interval(1000).pipe(take(1)),
-      sourceFour: interval(1000).pipe(take(2)),
+      sourceTwo: of('World'),
     }).subscribe(result => {
       console.log(result);
     });
