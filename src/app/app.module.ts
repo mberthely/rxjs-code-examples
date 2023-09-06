@@ -13,6 +13,7 @@ import { SubjectVsObservableComponent } from './topic-scenarios/subject-vs-obser
 import { CombineAllComponent } from './operators/cobination/combine-all/combine-all.component';
 import { OfComponent } from './operators/creation/of/of.component';
 import { FromComponent } from './operators/creation/from/from.component';
+import { DebounceTimeComponent } from './operators/filtering/debounce-time/debounce-time.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FromComponent } from './operators/creation/from/from.component';
     SubjectVsObservableComponent,
     CombineAllComponent,
     OfComponent,
-    FromComponent
+    FromComponent,
+    DebounceTimeComponent
   ],
   imports: [
     BrowserModule,

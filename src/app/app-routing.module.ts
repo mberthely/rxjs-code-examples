@@ -11,24 +11,26 @@ import { SubjectVsObservableComponent } from './topic-scenarios/subject-vs-obser
 import { CombineAllComponent } from './operators/cobination/combine-all/combine-all.component';
 import { OfComponent } from './operators/creation/of/of.component';
 import { FromComponent } from './operators/creation/from/from.component';
+import { DebounceTimeComponent } from './operators/filtering/debounce-time/debounce-time.component';
 
 const routes: Routes = [
 
   // Topic scanarios
   { path: 'subject-vs-observable', component: SubjectVsObservableComponent },
 
-  // Operators Transformation
+  // Operators > Transformation
   { path: 'map', component: MapComponent },
   { path: 'switch-map', component: SwitchMapComponent },
 
-  // Operators Combination
+  // Operators > Combination
   { path: 'forkJoin', component: ForkJoinComponent },
   { path: 'combine-all', component: CombineAllComponent },
 
-  // Operators Filtering
+  // Operators > Filtering
   { path: 'take', component: TakeComponent },
   { path: 'filter', component: FilterComponent },
   { path: 'find', component: FindComponent },
+  { path: 'debounce-time', component: DebounceTimeComponent },
 
   // Error handling
   { path: 'catch', component: CatchComponent },
