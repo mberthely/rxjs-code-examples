@@ -12,6 +12,7 @@ import { SwitchMapComponent } from './operators/transformation/switch-map/switch
 import { SubjectVsObservableComponent } from './topic-scenarios/subject-vs-observable/subject-vs-observable.component';
 import { CombineAllComponent } from './operators/cobination/combine-all/combine-all.component';
 import { OfComponent } from './operators/creation/of/of.component';
+import { FromComponent } from './operators/creation/from/from.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { OfComponent } from './operators/creation/of/of.component';
     SwitchMapComponent,
     SubjectVsObservableComponent,
     CombineAllComponent,
-    OfComponent
+    OfComponent,
+    FromComponent
   ],
   imports: [
     BrowserModule,
