@@ -14,6 +14,7 @@ import { CombineAllComponent } from './operators/cobination/combine-all/combine-
 import { OfComponent } from './operators/creation/of/of.component';
 import { FromComponent } from './operators/creation/from/from.component';
 import { DebounceTimeComponent } from './operators/filtering/debounce-time/debounce-time.component';
+import { HomeComponent } from './features/home/home.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DebounceTimeComponent } from './operators/filtering/debounce-time/debou
     CombineAllComponent,
     OfComponent,
     FromComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

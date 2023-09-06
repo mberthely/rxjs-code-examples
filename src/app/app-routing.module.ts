@@ -12,8 +12,12 @@ import { CombineAllComponent } from './operators/cobination/combine-all/combine-
 import { OfComponent } from './operators/creation/of/of.component';
 import { FromComponent } from './operators/creation/from/from.component';
 import { DebounceTimeComponent } from './operators/filtering/debounce-time/debounce-time.component';
+import { HomeComponent } from './features/home/home.component';
 
 const routes: Routes = [
+
+  // Home
+  { path: '', component: HomeComponent },
 
   // Topic scanarios
   { path: 'subject-vs-observable', component: SubjectVsObservableComponent },
